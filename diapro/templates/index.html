@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/materialize.min.css')}}" media="screen,projection">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" media="screen,projection">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a style="margin-left:5px" href="#" class="brand-logo">Diapro</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Products</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div style="margin-bottom:20px" class="parallax-container background-tint">
+      <div class="parallax"><img src="https://placeimg.com/1000/1000/any"></div>
+    </div>
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="https://placeimg.com/1000/600/any"></a>
+      <a class="carousel-item" href="#two!"><img src="https://placeimg.com/1000/600/tech"></a>
+      <a class="carousel-item" href="#three!"><img src="https://placeimg.com/1000/600/nature"></a>
+      <a class="carousel-item" href="#four!"><img src="https://placeimg.com/1000/600/people"></a>
+      <a class="carousel-item" href="#five!"><img src="https://placeimg.com/1000/600/sepia"></a>
+    </div>
+
+
+    <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6YxrapBzLrntddid05oGtC-UCxlkeGglnuXZ1Gk1vCFlwTw/viewform?embedded=true" width="100" height="100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></li>
+
+    </ul>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="static/js/materialize.js"></script>
+  <script src="static/js/init.js"></script>
+
+  </body>
+</html>
