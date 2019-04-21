@@ -1,10 +1,16 @@
-.parallax-container { 
+.parallax-container {
     max-height: "700px";
 }
 .carousel {
     max-height: 600px;
     width: 100%;
 }
+
+.carousel-slider {
+    max-height: 600px;
+    width: 100%;
+}
+
 .background-tint {
     background-color: rgba(0,255,0,.6); // Tint color
     background-blend-mode: multiply;
