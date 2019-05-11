@@ -10,7 +10,19 @@ $(document).ready(function(){
     $('.parallax').parallax();
   });
 
-  $(document).ready(function(){
+$(document).ready(function(){
       $('.fixed-action-btn').floatingActionButton();
-      
+
+  });
+
+$(document).ready(function(){
+
+      $(window).scroll(function(){
+
+       if($(window).scrollTop()>20){
+         $('nav').addClass('bg');
+       }else{
+         $('nav').removeClass('bg');
+       }
     });
+  });
