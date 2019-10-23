@@ -30,11 +30,35 @@ nav{
    color: white;
  }
 
+ .background-tint {
+     background-color: rgba(0,255,0,.6); // Tint color
+     background-blend-mode: multiply;
+ }
+
+ .background-tint-logo {
+     background-color: rgba(0,0,0,.8); // Tint color
+     background-blend-mode: multiply;
+ }
+
+ .title-under {
+    width: 30px;
+    height: 2px;
+    background-color: #d2202f;
+ }
 
 
+ .card {
+   width: 500px !important;
+   height: 500px !important;
+ }
 
-
-
+ .cardstuff {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-left: 0%;
+   margin-right: 0%;
+ }
 
 /* .parallax-container {
     max-height: "700px";

@@ -7,11 +7,11 @@ $(window).scroll(function(){
 
   if($(window).scrollTop()>20){
     $('nav').addClass('bg');
-    $('.brand-logo').addClass('black-text');
+    $('.brand-logo').addClass('red-text');
     $('.forjq').addClass('bg2');
   }else{
     $('nav').removeClass('bg');
-    $('.brand-logo').removeClass('black-text');
+    $('.brand-logo').removeClass('red-text');
     $('.forjq').removeClass('bg2');
   }
 });
