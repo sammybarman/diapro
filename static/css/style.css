@@ -1,12 +1,12 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    overflow: scroll;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: scroll;
   }
 
-  main {
-    flex: 1 0 auto;
+main {
+  flex: 1 0 auto;
   }
 
 nav{
@@ -16,6 +16,17 @@ nav{
   z-index: 99999;
   box-shadow: none !important;
   transition: background-color 0.4s ease-out;
+}
+
+nav a:hover{
+  box-shadow: none;
+  font-size: 20px;
+  transition: font-size 0.1s ease-out;
+}
+
+nav a:visited{
+  text-decoration: none;
+  decoration: none;
 }
 
 .bg{
@@ -58,6 +69,45 @@ nav{
    justify-content: center;
    margin-left: 0%;
    margin-right: 0%;
+ }
+
+ .cardstuff1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-left: 0%;
+   margin-right: 0%;
+ }
+
+ .carousel {
+   min-height: 60vh;
+   min-width: 100%;
+ }
+
+ .carousel-slider {
+   max-height: 100%;
+   min-width: 100%;
+ }
+
+ .carousel-item img {
+   min-height: 100%;
+   min-width: 100%;
+   object-fit: contain;
+ }
+
+ .productimg{
+   object-fit: contain;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-height: 100%;
+   max-width: 100%
+ }
+
+ .callbtn{
+   position:relative;
+   bottom: -20px;
+   right: 5px;
  }
 
 /* .parallax-container {

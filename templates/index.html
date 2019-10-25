@@ -15,35 +15,42 @@
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
 
-  <nav>
+  <nav style="min-height:80px; line-height: 80px">
     <div class="nav-wrapper">
       <a href="/" class=" center brand-logo">DIAPRO</a>
       <a href="#" data-target="slide-out" class="sidenav-trigger show-on-med-and-down forjq"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="forjq" href="#!">ABOUT US</a></li>
-        <li><a class="forjq" href="#!">WHY DIAPRO?</a></li>
+        <li><a class="forjq" href="/about">ABOUT US</a></li>
+        <li><a class="forjq" href="/why">WHY DIAPRO?</a></li>
         <!-- <li><a class="forjq" href="#!"></a>DOCTOR'S CORNER</li> -->
-        <li><a class="forjq" href="#!">PRODUCTS</a></li>
-        <li><a class="forjq" href="#!">GALLERY</a></li>
+        <li><a class="forjq" href="/product">PRODUCTS</a></li>
+        <li><a class="forjq" href="#social">SOCIAL</a></li>
       </ul>
     </div>
   </nav>
 
+  <!-- <div class="carousel carousel-slider" style="margin-top:80px; margin-bottom:0;padding: 0;">
+    <a class="carousel-item" href="#one!"><img src="http://placeimg.com/1440/480/any" alt="Logo"></a>
+    <a class="carousel-item" href="#two!"><img src="http://placeimg.com/1440/480/tech" alt="Logo"></a>
+    <a class="carousel-item" href="#three!"><img src="http://placeimg.com/1440/480/nature" alt="Logo"></a>
+    <a class="carousel-item" href="#four!"><img src="http://placeimg.com/1440/480/people" alt="Logo"></a>
+  </div> -->
 
-  <ul id="slide-out" class="sidenav" style="background-color: black; margin-top: 65px">
-    <li><a style="color:white" class="waves-effect" href="#!">ABOUT US</a></li>
+
+  <ul id="slide-out" class="sidenav" style="background-color: black">
+    <li><a style="color:white" class="waves-effect" href="/about">ABOUT US</a></li>
     <li><div class="divider"></div></li>
-    <li><a style="color:white" class="waves-effect" href="#!">WHY DIAPRO</a></li>
+    <li><a style="color:white" class="waves-effect" href="/why">WHY DIAPRO</a></li>
     <li><div class="divider"></div></li>
-    <li><a style="color:white" class="waves-effect" href="#!">PRODUCTS</a></li>
+    <li><a style="color:white" class="waves-effect" href="/product">PRODUCTS</a></li>
     <li><div class="divider"></div></li>
-    <li><a style="color:white" class="waves-effect" href="#!">GALLERY</a></li>
+    <li><a style="color:white" class="waves-effect" href="#social">SOCIAL</a></li>
     <li><div class="divider"></div></li>
   </ul>
 
-  <section style="min-height: 100vh; margin-top: 65px;">
+  <section style="min-height: 100vh; margin-top: 90px">
     <div class="parallax-container" style="min-height: 1000px">
-      <div class="parallax"><img src="/static/img/logo.jpeg" /></div>
+      <div class="parallax"><img src="/static/img/logo.jpeg"></div>
 
       <div>
         <h1 class="section scrollspy white-text" id="aboutmain" style="text-align: center; margin-bottom: 0px">ABOUT US</h1>
@@ -87,6 +94,12 @@
       </div>
     </div>
   </section>
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red tooltipped" data-position="top" data-tooltip="CONTACT US" href="/contact">
+      <i class="large material-icons">call</i>
+    </a>
+  </div>
 
 
   <footer style="padding-top: 0; background: black; min-height: 50px" class="page-footer">

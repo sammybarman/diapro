@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Diapro</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/materialize.min.css')}}" media="screen,projection">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" media="screen,projection">
+</head>
+<body>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
+
+  <nav style="min-height:80px; line-height: 80px">
+    <div class="nav-wrapper">
+      <a href="/" class=" center brand-logo">DIAPRO</a>
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-med-and-down forjq"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="forjq" href="/">HOME</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav" style="background-color: black">
+    <li><a style="color:white" class="waves-effect" href="/">HOME</a></li>
+  </ul>
+
+  <h3 class="center black-text" style="margin-top: 90px"> CONTACT US </h3>
+  <hr class="title-under"/>
+  <br>
+  <br>
+  <div style="min-height:100vh;">
+    <div class="row">
+      <div class="col s12 m6 l3" style="margin-left:80px;">
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe frameborder="0" height="500" id="gmap_canvas" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=Diapro%20Kolkata&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="600"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+          <style type="text/css">.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+          </style>
+        </div>
+      </div>
+
+      <div class="col s12 m6 l4 offset-l3">
+        <p style="margin-top:120px;font-size:20px"><span style="font-weight:bold;font-size:30px;">ADDRESS - </span> 9 Dr Sundari Mohan Avenue,<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Beniapukur,Kolkata,West Bengal<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kolkata - 700 014<br />
+          <br />
+          <span style="font-weight:bold;font-size:30px;">PHONE NUMBER - </span> 9831077320<br />
+          <br />
+          <span style="font-weight:bold;font-size:30px;">EMAIL - </span> diapro_dr@yahoo.com
+        </p>
+      </div>
+    </div>
+    </div>
+
+
+  <footer style="padding-top: 0; background: black; min-height: 50px" class="page-footer">
+    <div class="footer-copyright">
+      <div class="container white-text text-lighten-4">
+        DIAPRO © 2019
+        <a class="white-text text-lighten-4 right" href="/contact">CONTACT US</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous">
+  </script>
+  <script src="static/js/materialize.js"></script>
+  <script src="static/js/init.js"></script>
+
+</body>
+</html>
