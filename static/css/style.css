@@ -41,6 +41,10 @@ nav a:visited{
    color: white;
  }
 
+ .bg4{
+   background: rgba(0, 0, 0, 0.5);
+ }
+
  .background-tint {
      background-color: rgba(0,255,0,.6); // Tint color
      background-blend-mode: multiply;
@@ -100,8 +104,10 @@ nav a:visited{
    display: block;
    margin-left: auto;
    margin-right: auto;
-   max-height: 100%;
-   max-width: 100%
+   height: 300px;
+   width: 273px;
+   max-height: 300px;
+   max-width: 273px;
  }
 
  .callbtn{
