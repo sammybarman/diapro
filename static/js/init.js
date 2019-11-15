@@ -11,10 +11,18 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.scrollspy').scrollSpy();
   $('.materialboxed').materialbox();
-   $('.fixed-action-btn').floatingActionButton();
-   $('.tap-target').tapTarget();
-    $('.tooltipped').tooltip();
+  $('.fixed-action-btn').floatingActionButton();
+  $('.tap-target').tapTarget();
+  $('.tooltipped').tooltip();
+  // $('.dropdown-trigger').dropdown({
+  //   hover: true,
+  //   belowOrigin: true,
+  //   alignment: 'right',
+  //   coverTrigger: false,
+  //   closeOnClick: false
+  // });
 });
+
 
 $(window).scroll(function(){
 

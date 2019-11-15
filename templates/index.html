@@ -21,13 +21,46 @@
       <a href="#" data-target="slide-out" class="sidenav-trigger show-on-med-and-down forjq"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="forjq" href="/about">ABOUT US</a></li>
-        <li><a class="forjq" href="/why">WHY DIAPRO?</a></li>
+        <li><a class='dropdown-trigger forjq' href="#!" data-target='dropdown1'>WHY DIAPRO?</a></li>
         <!-- <li><a class="forjq" href="#!"></a>DOCTOR'S CORNER</li> -->
         <li><a class="forjq" href="/product">PRODUCTS</a></li>
         <li><a class="forjq" href="#social">SOCIAL</a></li>
       </ul>
     </div>
   </nav>
+
+  <!-- Dropdown Structure NOT WORKING -->
+  <!-- <div id='dropdown1' class='dropdown-content'>  -->
+    <!-- <form>
+      <div class="row">
+        <div class="input-field">
+          <input name="firstname" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field">
+          <input name="lastname" id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field">
+          <input name="email" id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field">
+          <input name="password" id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row center">
+        <button name="submit" type="button" onclick='submitUser()'> Submit </button>
+      </div>
+    </form>
+  </div> -->
 
   <!-- <div class="carousel carousel-slider" style="margin-top:80px; margin-bottom:0;padding: 0;">
     <a class="carousel-item" href="#one!"><img src="http://placeimg.com/1440/480/any" alt="Logo"></a>
@@ -37,10 +70,10 @@
   </div> -->
 
 
-  <ul id="slide-out" class="sidenav" style="background-color: black">
+  <ul id="slide-out" class="sidenav" style="background-color: black; margin-top: 80px">
     <li><a style="color:white" class="waves-effect" href="/about">ABOUT US</a></li>
     <li><div class="divider"></div></li>
-    <li><a style="color:white" class="waves-effect" href="/why">WHY DIAPRO</a></li>
+    <li><a style="color:white" class='dropdown-trigger waves-effect' href="#!" data-target='dropdown1'>WHY DIAPRO?</a></li>
     <li><div class="divider"></div></li>
     <li><a style="color:white" class="waves-effect" href="/product">PRODUCTS</a></li>
     <li><div class="divider"></div></li>
