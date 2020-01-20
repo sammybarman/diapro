@@ -21,12 +21,20 @@
       <a href="#" data-target="slide-out" class="sidenav-trigger show-on-med-and-down forjq"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a class="forjq" href="/about">ABOUT US</a></li>
-        <li><a class='forjq' href="/why">WHY DIAPRO?</a></li>
+        <li><a class='dropdown-trigger forjq' href='#' data-target='dropdown1'>WHY DIAPRO?</a></li>
         <li><a class="forjq" href="/product">PRODUCTS</a></li>
         <li><a class="forjq" href="#social">SOCIAL</a></li>
       </ul>
     </div>
   </nav>
+
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
 
   <ul id="slide-out" class="sidenav" style="background-color: black; margin-top: 80px">
     <li><a style="color:white" class="waves-effect" href="/about">ABOUT US</a></li>

@@ -8,6 +8,12 @@ $(document).ready(function(){
   $('.tooltipped').tooltip();
 });
 
+$('.dropdown-trigger').dropdown({
+  coverTrigger: false,
+  hover: true,
+  constrainWidth: false
+});
+
 $('.carousel.carousel-slider').carousel({
   fullWidth: true,
   indicators: true
